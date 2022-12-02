@@ -1,0 +1,161 @@
+<br><br><div id=table2 >
+    <h2>Consult Top Doctors By Speciality For Any Health Concern</h2>
+    <p style="text-align: center; font-size: 18px;">Instant Online Appointment Booking With Top Doctors</p>
+    <table >
+        <!-- <th>DEPARTMENTS</th> -->
+        <div class="row">
+        <tr>
+           <div class="column">
+            <td><figure><img src="assets\accident.jpg">
+              <figcaption style="text-align: center;">
+                 <input type="submit" routerLink="/emergency" value="Emergency" name="emergency"></figcaption>
+            
+       </figure>
+       </td>
+       </div> 
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\children.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/child" value="Children Specialist" name="child">
+                <!-- <button><a class="button" routerLink="/child" style="font-size: 15px;">Children Specialist</a></button>--></figcaption> 
+          </figure></td>
+          <!-- <td><a href="childrenspecialist.html">Children Specialist</a> </td> -->
+            </div>
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\cardio.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/cardio" value="Cardiology" name="cardio"></figcaption>
+              </figure></td>
+          <!-- <td><a href="cardiology.html">Cardiology</a> </td> -->
+          </div>
+         </tr>
+         </div>
+         <div class="row">
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\dental.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/dental" value="Dental" name="dental"></figcaption>
+          </figure></td>
+          <!-- <td><a href="dental.html">Dental</a> </td> -->
+          </div>
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\dermatology.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/dermatology" value="Dermatology" name="child"></figcaption>
+          </figure></td>
+          <!-- <td><a href="dermatology.html">Dermatology</a> </td> -->
+          </div>
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\diabetes.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/diabetes" value="Diabetis" name="diabetes"></figcaption>
+          </figure></td>
+          <!-- <td><a href="diabetis.html">Diabetis</a> </td> -->
+          </div>
+         </tr>
+         </div>
+         <div class="row">
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\generalsurgery.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/generalsurgery" value="General Surgery" name="generalsurgery"></figcaption>
+          </figure></td>
+          <!-- <td><a href="generalsurgery.html">General Surgery</a> </td> -->
+          </div>
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\nephrology.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/nephrology" value="Nephrology" name="nephrology"></figcaption>
+          </figure></td>
+          <!-- <td><a href="nephrology.html">Nephrology</a> </td> -->
+          </div>
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\neurology.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/neurology" value="Neurology" name="neurology"></figcaption>
+          </figure></td>
+          <!-- <td><a href="neurology.html">Neurology</a> </td> -->
+          </div>
+         </tr>
+         </div>
+         <div class="row">
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\Orthopedic.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/orthopedic" value="Orthopedics" name="orthopedic"></figcaption>
+          </figure></td>
+          <!-- <td><a href="orthopedic.html">Orthopedics</a> </td> -->
+          </div>
+         </tr>
+         <tr>
+            <div class="column">
+            <td><figure><img src="assets\radiology.jpg">
+              <figcaption style="text-align: center;"> 
+                <input type="submit" routerLink="/radiology" value="Radilology" name="radiology"></figcaption>
+          </figure></td>
+          <!-- <td><a href="radiology.html">Radilology</a> </td> -->
+          </div>
+         </tr>
+        </div>
+    </table>
+    <br><br>
+</div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#table2
+{
+    font-size: 20px;
+}
+h2{
+    /* font-family:cursive; */
+    color:darkgreen;
+    text-align: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+figcaption{
+    font-size: 20px;
+    
+}
+.row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+    padding: 3px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
